@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("board")//공통주소분리 => ("board/insert")로 매핑되도록 한번에 처리
+@RequestMapping("board")
 
 public class BoardController {
 
